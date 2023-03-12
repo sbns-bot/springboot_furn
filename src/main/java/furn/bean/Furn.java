@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 @Data
-@TableName("furn")//furn类和表名未对应用注解@TableName
+@TableName("furn")//furn类和表名未对应时用注解@TableName
 public class Furn {
 
     //这里我们使用@TableId： 表主键标识
